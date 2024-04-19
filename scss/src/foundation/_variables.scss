@@ -1,0 +1,68 @@
+/*=============================================
+=            Colors            =
+=============================================*/
+
+// Brand Colors -- Mainly used colors in the website
+$green: #5ece7b;
+$green-light: #9ee2b0;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+// Neutral Colors -- Colors such as black and gray etc.
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+// Utility Colors -- Colors to provide information such as Success , Warning etc.
+$red: rgb(230, 40, 40);
+$red-light: rgb(238, 133, 133);
+
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+/*=============================================
+=            Typography            =
+=============================================*/
+
+// Font Families
+$playfair: "Playfair", serif;
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", san-serif;
+
+// Font Sizes
+$fs-xs: 0.75rem;
+$fs-sm: 0.875rem;
+$fs-base: 1rem;
+$fs-lg: 1.125rem;
+$fs-xl: 1.5rem;
+
+// Font Weights
+$fw-light: 300;
+$fw-noram: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+// Heading sizes
+$h-1: 1.475rem;
+$h-2: 1.375rem;
+$h-3: 1rem;
+$h-4: 1.125rem;
+$h-5: 0.75rem;
+$h-6: 0.75rem;
+
+/*=============================================
+=            Breakpoints            =
+=============================================*/
+
+// Breakpoints -- Global Response breakpoints definition
+
+$breakpoints: (
+  md: 48rem,
+  lg: 64rem,
+  xl: 80rem,
+);
